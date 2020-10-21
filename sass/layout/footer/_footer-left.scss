@@ -1,0 +1,27 @@
+.footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
+
+  background-color: #2f303a;
+
+  &-container {
+    display: flex;
+  }
+
+  .footer-list {
+    display: inline-block;
+
+    &:nth-child(-n + 2) {
+      margin-bottom: 0px;
+    }
+  }
+
+  .footer-contacts {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  }
+}
