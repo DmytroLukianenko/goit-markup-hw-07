@@ -1,7 +1,8 @@
 @import './base/common';
 @import './base/normalize';
-@import './layout/header';
 @import './components/logo';
+@import './layout/header';
+
 @import './layout/services';
 @import './layout/clients';
 @import './base/button';
@@ -12,7 +13,7 @@
 @import './layout/footer/footer-center';
 @import './layout/footer/footer-right';
 @import './components/adress';
-@import './layout/portfolio';
-@import './layout/portfolio-filter';
+// @import './layout/portfolio';
+// @import './layout/portfolio-filter';
 @import './utils/footer-title';
 @import './layout/dropbox';

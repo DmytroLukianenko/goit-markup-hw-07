@@ -14,7 +14,7 @@
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
-  background-color: #fff;
+  background-color: $bg-color;
 }
 .close-modal {
   position: absolute;
@@ -90,7 +90,7 @@
   &-message:hover,
   &-message:focus {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: $accent-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -123,7 +123,7 @@
 }
 
 .policy-link {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .text-description {

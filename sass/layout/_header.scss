@@ -41,7 +41,7 @@
     }
   }
   .current {
-    color: var(--accent-color);
+    color: $accent-color;
 
     &::before {
       content: '';
@@ -68,7 +68,7 @@
   }
   .icon {
     margin-right: 10px;
-    fill: var(--primary-text-color);
+    fill: $primary-color;
   }
 
   .site-nav-right-link {
@@ -76,7 +76,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    color: var(--primary-text-color);
+    color: $primary-color;
 
     font-style: normal;
     font-weight: 500;

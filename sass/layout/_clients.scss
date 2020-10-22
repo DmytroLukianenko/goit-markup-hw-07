@@ -37,10 +37,10 @@
 
   &:hover,
   &:focus {
-    border: 1px var(--accent-color) solid;
+    border: 1px $accent-color solid;
 
     & .clients-svg {
-      fill: var(--accent-color);
+      fill: $accent-color;
     }
   }
 }

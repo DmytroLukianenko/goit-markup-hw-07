@@ -1,9 +1,3 @@
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-bg-color: #ffffff;
-}
 $primary-color: #757575;
 $title-color: #212121;
 $accent-color: #2196f3;
@@ -21,8 +15,8 @@ $iconbg-color: #f5f4fa;
 }
 
 .page {
-  background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
+  background-color: $bg-color;
+  color: $primary-color;
   margin: 0px;
   font-family: roboto, sans-serif;
 }
@@ -42,25 +36,4 @@ $iconbg-color: #f5f4fa;
   box-sizing: border-box;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-
-/* Site nav */
-
-.site-nav-link {
-  color: var(--title-text-color);
-}
-.site-nav .current {
-  color: var(--accent-color);
-}
-
-.site-nav-link:hover,
-.site-nav-link:focus {
-  color: var(--accent-color);
-}
-.site-nav-right-link {
-  color: var(--primary-text-color);
-}
-.site-nav-right-link:hover,
-.site-nav-right-link:focus {
-  color: var(--accent-color);
 }

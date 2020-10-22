@@ -2,8 +2,8 @@
   padding: 10px 32px;
   border: none;
   border-radius: 4px;
-  color: var(--primary-bg-color);
-  background-color: var(--accent-color);
+  color: $bg-color;
+  background-color: $accent-color;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
@@ -12,8 +12,7 @@
   letter-spacing: 0.06em;
   text-decoration: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-.button-portfolio :hover {
-  color: var(--accent-color);
+  // &:hover {
+  //   color: $primary-color;
+  // }
 }
